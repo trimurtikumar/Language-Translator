@@ -1,0 +1,9 @@
+langchain-core
+langchain-community
+fastapi
+StrOutputParser
+langserve
+ChatPromptTemplate
+uvicorn
+langchain-groq
+sse_starlette
