@@ -20,7 +20,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 parser = StrOutputParser()
 
 ## create chain
-chain = prompt_template|model|parser
+chain = prompt_template|model|parser    ## first the prompt template then llm model and then the output parser
 
 ## App definition
 app = FastAPI(title="Langchain Server",
